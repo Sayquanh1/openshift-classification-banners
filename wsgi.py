@@ -20,8 +20,8 @@ def banner():
         banner_color = '#ff0000'
     elif classification.upper() == "UNCLASSIFIED":
         banner_color = '#5cb85c'
-    elif classification.upper() == "SCI":
-        banner_color = 'yellow'
+    elif classification.upper() == "TOP SECRET//SI-G/TK//NOFORN":
+        banner_color = '#FFFF00'
     else:
         banner_color = '#ffc0cb'
         classification = "NO CLASSIFICATION SET"
